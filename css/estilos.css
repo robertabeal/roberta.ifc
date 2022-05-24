@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Like Eat;
+    src: url('like_eat/Like\ Eat.ttf');
+}
+
+:root {
+    
+    --cor_fundo: #f5e1e2;
+    --cor_parágrafo:#e1b7ed;
+    --cor_título:#e04891;
+    --cor_link:#b9de51;
+    --fonte_principal:Like Eat;
+    --fonte_tamanho: 20px; 
+}
+
+body { 
+    font-family: var(--fonte_principal);
+    background-color: var(--cor_fundo);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: var(--fonte_tamanho);
+}
+
+div.imagem {text-align: center;}
+
+h1 { 
+    color: var(--cor_título);
+    font-family: var(--fonte_principal);
+}
+
+body p {color: var(--cor_parágrafo);
+        text-align: justify;
+        font-family: var(--fonte_principal);}
+
+ul {padding: 0;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;}
+
+ul li {margin-bottom: 5px;}
+
+ul li a {color: var(--cor_link);
+        text-decoration: none;}
+
+img { 
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
